@@ -1,4 +1,21 @@
 body{
     background-color:  #000000;
     color: #ffffff;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #333333;
+    padding: 10px;
+    margin: 20px 0;
+    align-items: center;
+    background-position: row;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
 }
